@@ -1,0 +1,86 @@
+* {
+	text-decoration: none;
+}
+
+body {
+	background: #f7f7f7;
+}
+
+/* ---- header ---- */
+header {
+	background-color: skyblue;
+}
+
+.header-container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+header h1 {
+	font-weight: bold;
+	font-size: 3em;
+	color: white;
+}
+
+header p {
+	font-size: 1.2em;
+	color: white;
+	margin-top: 1em;
+	transition: 0.3s;
+}
+
+header p:hover {
+	color: gray;
+	font-weight: bold;
+}
+
+/* ---- main ---- */
+.main-container {
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 2em 0;
+	background-color: white;
+}
+
+.main-container h2 {
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: bold;
+	font-family: 'Sawarabi Mincho';
+}
+
+.articles-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+}
+
+.achievements {
+	margin-top: 20%;
+}
+
+.achievements h3 {
+	font-size: 1.3em;
+	font-weight: bold;
+	font-family: 'Sawarabi Mincho';
+}
+
+.achievements article {
+	transition: 1s;
+	padding: 1.5em;
+	line-height: 2.5;
+}
+
+.touch_game {
+	transition: 0.5s;
+	color: blue;
+}
+
+.touch_game:hover {
+	color: red;
+	border-bottom: 1px solid red;
+}
