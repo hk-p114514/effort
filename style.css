@@ -6,6 +6,14 @@ body {
 	background: #f7f7f7;
 }
 
+.through {
+	text-decoration: line-through;
+}
+
+.li-disc {
+	list-style-type: disc;
+}
+
 /* ---- header ---- */
 header {
 	background-color: skyblue;
@@ -35,6 +43,11 @@ header p {
 header p:hover {
 	color: gray;
 	font-weight: bold;
+}
+
+.header-right {
+	display: flex;
+	justify-content: flex-end;
 }
 
 /* ---- main ---- */
@@ -73,14 +86,15 @@ header p:hover {
 	transition: 1s;
 	padding: 1.5em;
 	line-height: 2.5;
+	text-align: left;
 }
 
-.touch_game {
-	transition: 0.5s;
+.achievements a {
+	transition: 0.3s;
 	color: blue;
 }
 
-.touch_game:hover {
+.achievements a:hover {
 	color: red;
 	border-bottom: 1px solid red;
 }
